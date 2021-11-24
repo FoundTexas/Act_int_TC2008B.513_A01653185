@@ -34,7 +34,7 @@ public class Robot : MonoBehaviour
         {
             iteration++;
 
-            if (iteration >= Positions.Length)
+            if (iteration >= Positions.Length-1)
             {
                 iteration = 0;
                 target = Positions[iteration];
